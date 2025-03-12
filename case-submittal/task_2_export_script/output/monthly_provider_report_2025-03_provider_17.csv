@@ -1,0 +1,13 @@
+,metric_source,2024-03,2024-04,2024-05,2024-06,2024-07,2024-08
+0,average_responses_agg_month,0.0,4.58333333333333,4.70833333333333,4.75,4.66666666666666,4.57142857142857
+1,caseloads_months,17.0,106.0,201.0,243.0,220.0,253.0
+2,chart_review_months,0.0,1.0,0.0,1.0,0.714285714285714,0.666666666666666
+3,documentation_rates_months,1.0,1.0,0.995073891625615,0.995327102803738,0.987341772151898,1.0
+4,mic_utilization_rate_months,0.785714285714285,0.872,0.723163841807909,0.679347826086956,0.766917293233082,0.885572139303482
+5,miss_streak__average_responses_agg_month,1.0,0.0,0.0,0.0,0.0,0.0
+6,miss_streak__caseloads_months,1.0,2.0,3.0,4.0,5.0,6.0
+7,miss_streak__chart_review_months,1.0,0.0,1.0,0.0,1.0,2.0
+8,miss_streak__documentation_rates_months,0.0,0.0,0.0,0.0,0.0,0.0
+9,miss_streak__mic_utilization_rate_months,1.0,0.0,1.0,2.0,3.0,0.0
+10,total_num_metric_target_met,1.0,4.0,2.0,3.0,2.0,3.0
+11,num_month_streak_metric_total_missed_target,1.0,0.0,1.0,0.0,1.0,0.0

@@ -43,9 +43,6 @@ venv.bak/
 .jupyterlab-*
 
 # Data and Logs
-*.csv
-*.tsv
-*.json
 *.log
 *.sqlite
 *.db

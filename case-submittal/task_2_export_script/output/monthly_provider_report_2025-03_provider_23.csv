@@ -1,0 +1,13 @@
+,metric_source,2024-06,2024-07,2024-08
+0,average_responses_agg_month,4.6,4.3076923076923,3.83333333333333
+1,caseloads_months,48.0,123.0,187.0
+2,chart_review_months,0.0,1.0,1.0
+3,documentation_rates_months,1.0,1.0,0.986013986013986
+4,mic_utilization_rate_months,0.704545454545454,0.834710743801652,0.854838709677419
+5,miss_streak__average_responses_agg_month,0.0,0.0,1.0
+6,miss_streak__caseloads_months,1.0,2.0,3.0
+7,miss_streak__chart_review_months,1.0,0.0,0.0
+8,miss_streak__documentation_rates_months,0.0,0.0,0.0
+9,miss_streak__mic_utilization_rate_months,1.0,0.0,0.0
+10,total_num_metric_target_met,2.0,4.0,3.0
+11,num_month_streak_metric_total_missed_target,1.0,0.0,0.0
