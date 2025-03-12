@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb~
+*.pyc
+
+# Jupyter Lab
+.jupyterlab-*
+
+# Data and Logs
+*.csv
+*.tsv
+*.json
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+/venv/
+
+# Temporary files
+*.tmp
+*~
+# IDE files
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Conda Environments
+environment.yml
+environment.lock.yml
+conda-meta/
