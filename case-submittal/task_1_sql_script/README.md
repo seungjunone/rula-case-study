@@ -36,3 +36,5 @@ The raw data is uploaded to [personal snowflake instance](https://qsoynix-neb044
     2. Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql). Its output is stored as [Task #1.2.csv](coutput/Task #1.2.csv)
 
 
+## Results and Discussions
+
