@@ -7,6 +7,9 @@ This analysis aims to:
 
 
 ## Deliverables
+| Task Summary | SQL File | SQL Output File | Note |
+| --- | --- | --- | --- |
+| Underperforming Providers | [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql)
 
 
 
@@ -26,10 +29,10 @@ The raw data is uploaded to [personal snowflake instance](https://qsoynix-neb044
 
 1. The raw data is uploaded to `PUBLIC.RULA_CASE_STUDY.PUBLIC.PROVIDER_MONTHLY_METRICS`
 1. Three dimensional tables are created to correct the missing date range issue:
-    1. Date spline table is created using the [create_monthly_date_spline](case-submittal/task_1_sql_script/scripts/create_monthly_date_spline.sql)
-    1. Metrics name table is created using the [create_metric_name](case-submittal/task_1_sql_script/scripts/create_metric_name.sql)
-    1. Provider ID talbe is created using the [create_provider_id](case-submittal/task_1_sql_script/scripts/create_provider_id.sql)
-    1. Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](case-submittal/task_1_sql_script/scripts/task_1_underperforming_providers.sql). Its output is stored as [Task #1.1.csv](case-submittal/task_1_sql_script/output/Task #1.1.csv)
-    2. Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](case-submittal/task_1_sql_script/scripts/task_1_underperforming_providers.sql). Its output is stored as [Task #1.2.csv](case-submittal/task_1_sql_script/output/Task #1.2.csv)
+    1. Date spline table is created using the [create_monthly_date_spline](scripts/create_monthly_date_spline.sql)
+    1. Metrics name table is created using the [create_metric_name](scripts/create_metric_name.sql)
+    1. Provider ID talbe is created using the [create_provider_id](scripts/create_provider_id.sql)
+    1. Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql). Its output is stored as [Task #1.1.csv](case-submittal/task_1_sql_script/output/Task #1.1.csv)
+    2. Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql). Its output is stored as [Task #1.2.csv](coutput/Task #1.2.csv)
 
 
