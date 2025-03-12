@@ -6,7 +6,7 @@ so they can understand their performance across each of these metrics through
 time against targets
 
 ## Deliverables
-The [create_monthly_performance_report.py](scripts/create_monthly_performance_report.py) script loads, cleans, transforms and export the provider level data to [output folder](/output))
+The [create_monthly_performance_report.py](scripts/create_monthly_performance_report.py) script loads, cleans, transforms and export the provider level data to [output folder](output))
 
 Each file follows the following format.
 
