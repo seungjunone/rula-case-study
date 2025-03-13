@@ -34,7 +34,7 @@ The raw data is uploaded to [personal snowflake instance](https://qsoynix-neb044
     * Metrics name table is created using the [create_metric_name](scripts/create_metric_name.sql)
     * Provider ID talbe is created using the [create_provider_id](scripts/create_provider_id.sql)
     * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql). Its output is stored as [task_1_underperforming.csv](output/task_1_underperforming.csv).
-    * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql]. Its output is stored as [task_1_output_mic_utilization.csv](output/task_.1_output_mic_utilization.csv)
+    * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql]. Its output is stored as [task_1_output_mic_utilization.csv](output/task_1_output_mic_utilization.csv).
 
 
 ## Results and Discussions
