@@ -26,7 +26,7 @@ This repository is organized as follows:
     * [Cleaned Data](data/case_data_cleaned.pkl)
     * [Summary for Each Metrics](data/case_data_target_miss_streak.pkl)
     * [Summary for Each Providers](data/case_data_performance_miss_streak.pkl)
-    * [Data report for Proviers](data/provider_export_report/)
+    * [Data report for Providers](data/provider_export_report/)
 * **`docs/`**:
     * Contains standalone Jupyternotebook walking through functions and scripts used in deliverables
     * [Data Quality Check](docs/01_data_quality_check.ipynb)
