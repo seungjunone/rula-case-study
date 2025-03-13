@@ -10,7 +10,7 @@ This analysis aims to:
 | Task Summary | SQL File | SQL Output File | Note |
 | --- | --- | --- | --- |
 | Underperforming Providers | [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql) | [task_1_underperforming.csv](output/task_1_underperforming.csv) | Found provider 2, 13, 27, and 32 to be underperforming |
-| MIC Utilization Improvement | [task_1_mic_utilization_improvement.sql](scripts/task_2_mic_utilization_improvement.sql) | [task_1_output_mic_utilization.csv](output/task_1_output_mic_utilization.csv) | Found provider 19, 21, 3, 8, and 16 to have improved MIC utilization by largest margin |
+| MIC Utilization Improvement | [task_1_mic_utilization_improvement.sql](scripts/task_2_mic_improvement_by_providers.sql) | [task_1_output_mic_utilization.csv](output/task_1_output_mic_utilization.csv) | Found provider 19, 21, 3, 8, and 16 to have improved MIC utilization by largest margin |
 
 
 
@@ -34,14 +34,14 @@ The raw data is uploaded to [personal snowflake instance](https://qsoynix-neb044
     * Metrics name table is created using the [create_metric_name](scripts/create_metric_name.sql)
     * Provider ID talbe is created using the [create_provider_id](scripts/create_provider_id.sql)
     * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql](scripts/task_1_underperforming_providers.sql). Its output is stored as [task_1_underperforming.csv](output/task_1_underperforming.csv).
-    * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql][task_1_output_mic_utilization.csv](output/task_.1_output_mic_utilization.csv)
+    * Script to identify underperforming provider is created - [task_1_underperforming_providers.sql]. Its output is stored as [task_1_output_mic_utilization.csv](output/task_.1_output_mic_utilization.csv)
 
 
 ## Results and Discussions
 
 ### Identification of Underperforming Providers:
 
-The result of sql queries were corroborated by visual inspection of the heatmap created in [04_visualize.ipynb](docs/04_visualize.ipynb). They both identifies Providers 2, 13, and 27 as consistently underperforming. These providers failed to meet targets for more than three key metrics over the preceding three months, as visualized in the figure below..
+The result of sql queries were corroborated by visual inspection of the heatmap created in [04_visualize.ipynb](../../docs/04_visualize.ipynb). They both identifies Providers 2, 13, and 27 as consistently underperforming. These providers failed to meet targets for more than three key metrics over the preceding three months, as visualized in the figure below..
 
 ![image](output/task_1_underperforming_heatmap.png)
 
